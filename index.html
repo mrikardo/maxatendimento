@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ionicon/css/ionicons.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- Custom  Design assets -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/media.css"> -->
+    <title>Maxatendimento</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <nav id="nav" class="navbar navbar-inverse navbar-fixed-top bwt-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-8 brand-bar">
+                        <a href="index.html"><img class="img-responsive" src="img/logo-white.png"></a>
+                </div>
+                <div class="col-lg-6 col-xs-4 col-sm-6 col-md-6 craft-bar text-right">
+                    <div class="main" id="main">
+                      <a onclick="openNav()">
+                            <img class="zoom-act" src="img/menu.png">
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </nav>  
+    <!-- Header Section Close --> 
+    
+    <!-- Sidenav bar Section -->
+    <div id="mySidenav" class="sidenav text-center">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+        <a href="#bwt-head">Home</a><hr>
+        <a href="#bwt-about">Sobre</a><hr>
+        <a href="#bwt-features">Funcionalidades</a><hr>
+        <a href="#bwt-screenshots">Screenshots</a><hr>
+        <a href="#bwt-pricing">Planos</a><hr>
+        <!--<a href="#bwt-testimonials">Testimonial</a><hr>
+        <a href="#bwt-newsletter">Newsletter</a><hr>!-->
+        <a href="https://api.whatsapp.com/send?phone=5521967105215" target="_blank">Contato</a>              
+    </div>
+    <!-- Sidenav bar Close -->
+        
+    <!-- Banner Section -->
+    <section id="bwt-head" class="head">
+        <div class="blur bwt-overlay">  
+            <div class="container bwt-overlayup">
+                <div class="row head-body">
+                    <div class="col-md-8 col-xs-12 head-items">
+                        <h1 class="">Tenha o controle dos atendimentos da sua empresa com o<br><span class="text-uppercase">Maxatendimento</span></h1>
+                        <!--<p class="banner-text">App Star is the best way to present your beautiful mobile app, it is an App landing page created to make your App looks outstanding between the crowd.</p>
+                        <p class="banner-text">Nec lacinia. Quod dicta donec perspiciatis rutrum saepe egestas, porro repellat curabitur, blandit rerum nostrud id conubia phasellus officiis .</p>!-->
+                        <a href="https://app.maxatendimento.com.br/signup" target="_blank" class="btn btn-primary text-uppercase"><i class="fa fa-download"></i>Experimente grátis por 3 dias!</a>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <img class="img-responsive banner-app" src="img/2.png">	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section Close -->
+    
+    <!-- About section -->
+    <section id="bwt-about" class="section about-section">
+        <div class="container text-center">
+            <h4 class="sub-title">Saiba Mais</h4>
+            <h2 class="title">Sobre o nosso software</h2>
+            <div class="row text-left">
+                <div class="col-md-3 col-xs-6 zoom-act">
+                    <img class="img-responsive" src="img/girl.png">
+                </div>
+                <div class="col-md-3 col-xs-6 zoom-act">
+                    <img class="img-responsive" src="img/jhon.png">
+                </div>
+                <div class="col-md-6 col-xs-12 explore">
+                        <h3>TORNE O ATENDIMENTO DA SUA EMPRESA MAIS ÁGIL E EFICAZ!</h3>
+                        <p>Desfrute de diversas funcionalidades que tornarão o seu atendimento mais organizado tendo tudo isso na palma da sua mão.</p>
+                        <ul class="list-unstyled">
+                            <li>Atendimentos Setorizados</li>
+                            <li>Agendamento de Mensagens</li>
+                            <li>Respostas Automáticas</li>
+                            <li>Chat Interno, Campanhas, Expediente</li>
+							<li>Campanhas com envios automáticos</li>
+							<li>Gerenciamento de Expediente</li>
+                            <li>Múltiplas conexões</li>
+                        </ul>
+                        <div class="buttons">
+                            <a href="https://app.maxatendimento.com.br/signup" target="_blank" class="btn btn-primary text-uppercase"><i class="fa fa-download"></i>Experimente grátis por 3 dias!</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section Close -->
+    
+    <!-- Feature section -->
+    <section id="bwt-features" class="section feature-section">
+        <div class="container text-center">
+            <h4 class="sub-title">Explore</h4>
+            <h2 class="title">Principais Recursos</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-reply-all " aria-hidden="true"></i>
+                    </div>
+                    <h3>Respostas Rápidas</h3>
+                </div>
+                <div class="col-md-3 col-sm-6 feature-block">
+                <div class="icon-square">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    </div>
+                    <h3>Agendamentos</h3>
+                </div>
+                <div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                    </div>
+                    <h3>Chat Interno</h3>
+                </div>
+                <div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>Campanhas</h3>
+                </div>
+			</div>
+			<div class="row"><br><br>
+				<div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-sitemap" aria-hidden="true"></i>
+                    </div>
+                    <h3>Setores</h3>
+                </div>
+				<div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>Expediente</h3>
+                </div>
+				<div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h3>Avaliações</h3>
+                </div>
+				<div class="col-md-3 col-sm-6 feature-block">
+                    <div class="icon-square">
+                        <i class="fa fa-android" aria-hidden="true"></i>
+                    </div>
+                    <h3>Chatbot</h3>
+                </div>
+			</div>
+        </div>
+    </section>
+    <!-- Feature section Close -->
+    
+    <!-- Screenshots Section -->
+    <section id="bwt-screenshots" class="screenshot-section section">
+        <div class="container text-center">
+            <h4 class="sub-title">Showcase</h4>
+            <h2 class="title">SCREENSHOTS</h2>
+            <div id="screenshot" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="image">
+                        <img class="img-responsive" src="img/screen1.jpg">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img class="img-responsive" src="img/screen2.jpg">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img class="img-responsive" src="img/screen3.jpg">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img class="img-responsive" src="img/screen4.jpg">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img class="img-responsive" src="img/screen5.jpg">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Screenshots Section Close -->
+    
+    <!-- Pricing section -->
+     <section id="bwt-pricing" class="pricing-section section">
+        <div class="container text-center">
+            <h4 class="sub-title">Preços</h4>
+            <h2 class="title">Nossos Planos</h2>
+            <div class="row">
+                <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-3">
+                    <div class="price-box">
+                        <div class="price-head1">
+                            <h4>BÁSICO</h4>
+                            <h4><span>R$</span> 79,90</h4>
+                        </div>
+                        <div class="cost-info">
+                            <ul class="list-unstyled">
+                                <li> 2 Atendentes</li>
+                                <li> 2 Conexões</li>
+                                <li> 2 Filas</li>
+                            </ul>
+                            <a class="btn btn-secondary" href="https://app.maxatendimento.com.br/signup" target="_blank">Assinar</a>	
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-3">
+                    <div class="price-box">
+                        <div class="price-head2">
+                            <h4>STARTER</h4>
+                            <h4><span>R$</span> 99,90</h4>
+                        </div>
+                        <div class="cost-info">
+                            <ul class="list-unstyled">
+                                <li> 5 Atendentes</li>
+                                <li> 5 Conexões</li>
+                                <li> 5 Filas</li>
+                            </ul>
+                            <a class="btn btn-secondary" href="https://app.maxatendimento.com.br/signup" target="_blank">Assinar</a>	
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-3">
+                    <div class="price-box">
+                        <div class="price-head3">
+                            <h4><b>STANDARD</b></h4>
+                            <h4><span>R$</span> 149,90</h4>
+                        </div>
+                        <div class="cost-info">
+                            <ul class="list-unstyled">
+                                <li> 10 Atendentes</li>
+                                <li> 10 Conexões</li>
+                                <li> 10 Filas</li>
+                            </ul>
+                            <a class="btn btn-secondary" href="https://app.maxatendimento.com.br/signup" target="_blank">Assinar</a>	
+                        </div>
+                    </div>
+                </div>
+				<div class="col-xs-offset-0 col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-3">
+                    <div class="price-box">
+                        <div class="price-head4">
+                            <h4>PLUS</h4>
+                            <h4><span>R$</span> 199,90</h4>
+                        </div>
+                        <div class="cost-info">
+                            <ul class="list-unstyled">
+                                <li> 20 Atendentes</li>
+                                <li> 20 Conexões</li>
+                                <li> 20 Filas</li>
+                            </ul>
+                            <a class="btn btn-secondary" href="https://app.maxatendimento.com.br/signup" target="_blank">Assinar</a>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+    <!-- Pricing section Close -->
+    
+    <!-- Testimonial section 
+    <section id="bwt-testimonials" class="testimonial-section section">
+        <div class="container text-center">
+            <h4 class="sub-title">Testimonials</h4>
+            <h2 class="title">What people Says</h2>
+            <div class="owl-carousel owl-theme" id="testimonial">
+                <div class="item">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                    <h5>Mary Hackney</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="image">
+                        <img class="img-responsive img-circle" src="img/user1.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                    <h5>Jennifer Smith</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="image">
+                        <img class="img-responsive img-circle" src="img/user2.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                    <p>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+                    <h5>John Wootzie</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <div class="image">
+                        <img class="img-responsive img-circle" src="img/user3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section Close -->
+        
+    <!-- Newsletter section
+    <section id="bwt-newsletter" class="newsletter-section">
+        <div class="blur">
+            <div class="container">
+                <h4 class="sub-title">Subscribe</h4>
+                <h2 class="title">Our Newsletter</h2>
+                <div class="newsletter-form">
+                    <form>
+                        <div class="form-group">
+                           <input type="email" class="form-control" id="email" placeholder="Enter your email here">
+                           <button type="submit" class="btn btn-default">SEND ME</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter section Close -->
+    
+    <!-- Contact section
+    <section id="bwt-contact" class="contact-section section">
+        <div class="container text-center">
+            <h4 class="sub-title">Contact</h4>
+            <h2 class="title">Get in touch</h2>
+            <div class="row text-left">
+                <div class="col-md-6 address">
+                    <h5>Contact Information</h5>
+                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                    <div class="item">
+                        <span class="icon"><img class="img-responsive" src="img/location.png"></span>
+                        <div class="cont">
+                            <h6>Address</h6>
+                            <p>119  Pinnickinnick Street, Freehold, New Jersey, United States</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="icon"><img class="img-responsive" src="img/smartphone.png"></span>
+                        <div class="cont">
+                            <h6>Phone</h6>
+                            <p>+1-732-845-6318, +1-732-620-8072</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="icon"><img class="img-responsive" src="img/email.png"></span>
+                        <div class="cont">
+                            <h6>Email</h6>
+                            <p>info@appstar.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 form">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mgbt-20">
+                                <input id="" type="text" name="name" placeholder="Your Name" required="required">
+                            </div>
+                            <div class="col-md-6 mgbt-20">
+                                <input id="" type="text" name="phone" placeholder="Your Phone Number" required="required">
+                            </div>
+                            <div class="col-md-6 mgbt-20">
+                                <input id="" type="text" name="email" placeholder="Your E-maid ID" required="required">
+                            </div>
+                            <div class="col-md-6 mgbt-20">
+                                <input id="" type="text" name="subject" placeholder="Message Subject" required="required">
+                            </div>
+                            <div class="col-md-12 mgbt-20">
+                                <textarea name="message" placeholder="Your Message" rows="4" required="required"></textarea>
+                            </div>
+                            <div class="col-md-12 mgbt-20">
+                                <button type="submit" class="btn btn-secondary"><span>Send Message</span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section Close -->
+
+  <!-- Contact section -->
+    <section class="footer">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <img class="img-responsive" src="img/logo-green.png">
+            </div>
+            <div class="social footer-social">
+                    <ul class="list-inline">
+                        <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fa fa-instagram" aria-hidden="true"></a></li>
+                        <li><a href="#" class="fa fa-youtube" aria-hidden="true"></a></li> 
+                    </ul>
+            </div>
+        </div>
+    </section>
+    <section class="bwt-footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+					<div class="left-text">Copyright &copy; Maxatendimento 2023. Todos os direitos reservados</div>
+                </div>
+				<div class="col-md-6 copyright">
+					<div class="right-text">Design & Developed by: <a href="https://api.whatsapp.com/send?phone=5531995625649" target="_blank">Henrique Miranda</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section Close -->
+
+    <!-- Javascript files -->
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Carousel script file -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom script file -->
+    <script type="text/javascript" src="js/main.js" ></script>
+    
+	</body>
+</html>
